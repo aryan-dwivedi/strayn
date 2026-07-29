@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.foresightlabs.strayn</string>
+	<key>CFBundleName</key>
+	<string>strayn</string>
+	<key>CFBundleExecutable</key>
+	<string>strayn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Strayn needs access to your health data to calculate personalized recovery and strain scores based on your heart rate, HRV, sleep, and activity patterns.</string>
+
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Strayn may write workout data to Health when you track workouts using the app.</string>
+
+	<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+	<string>Not used by this app.</string>
+
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>processing</string>
+		<string>health</string>
+	</array>
+
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.strayn.dailyRecoveryCalculation</string>
+	</array>
+
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string>LaunchIcon</string>
+	</dict>
+
+	<key>MinimumOSVersion</key>
+	<string>17.0</string>
+</dict>
+</plist>
